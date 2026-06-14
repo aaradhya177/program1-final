@@ -3,7 +3,7 @@ pipeline {
  stages {
  stage('Clone Repository') {
  steps {
- git 'https://github.com/YOUR_USERNAME/Maven-Jenkins-App.git'
+ git 'https://github.com/aaradhya177/program1-final'
  }
  }
  stage('Check Java Version') { steps { sh 'java -version' } }
